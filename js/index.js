@@ -107,3 +107,48 @@ window.onclick = function (event) {
     }
   }
 };
+
+function myFunction_w() {
+  document.getElementById("myDrpdown_w").classList.toggle("shw_w");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".drpbtn_w")) {
+    var dropdowns = document.getElementsByClassName("drpdown-content_w");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains("shw_w")) {
+        openDropdown.classList.remove("shw_w");
+      }
+    }
+  }
+};
+
+// accordian content
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+
+const graphPage = document.getElementById("workFlow");
+const Gib = document.getElementById("g_i_b");
+graphPage.addEventListener("click", () => {
+  if (Gib.style.marginLeft === "280px") {
+    Gib.style.marginLeft = "30px";
+  }
+  else {
+    Gib.style.marginLeft = "280px";
+  }
+})
