@@ -160,3 +160,78 @@ graphPage.addEventListener("click", () => {
   }
   
 })
+
+const view_tree = document.getElementById("view_tree");
+view_tree.addEventListener("click", () => {
+  if (Gib.style.marginLeft === "280px") {
+    Gib.style.marginLeft = "30px";
+  } else {
+    Gib.style.marginLeft = "280px";
+  }
+
+  if (bttom_nav.style.marginLeft === "280px") {
+    bttom_nav.style.marginLeft = "30px";
+  } else {
+    bttom_nav.style.marginLeft = "280px";
+  }
+});
+
+const version = document.getElementById("versions");
+version.addEventListener("click", () => {
+  if (Gib.style.marginLeft === "280px") {
+    Gib.style.marginLeft = "30px";
+  } else {
+    Gib.style.marginLeft = "280px";
+  }
+
+  if (bttom_nav.style.marginLeft === "280px") {
+    bttom_nav.style.marginLeft = "30px";
+  } else {
+    bttom_nav.style.marginLeft = "280px";
+  }
+});
+
+const deployment = document.getElementById("deployment");
+deployment.addEventListener("click", () => {
+  if (Gib.style.marginLeft === "280px") {
+    Gib.style.marginLeft = "30px";
+  } else {
+    Gib.style.marginLeft = "280px";
+  }
+
+  if (bttom_nav.style.marginLeft === "280px") {
+    bttom_nav.style.marginLeft = "30px";
+  } else {
+    bttom_nav.style.marginLeft = "280px";
+  }
+});
+
+const connect = document.getElementById("connect");
+connect.addEventListener("click", () => {
+  if (Gib.style.marginLeft === "280px") {
+    Gib.style.marginLeft = "30px";
+  } else {
+    Gib.style.marginLeft = "280px";
+  }
+
+  if (bttom_nav.style.marginLeft === "280px") {
+    bttom_nav.style.marginLeft = "30px";
+  } else {
+    bttom_nav.style.marginLeft = "280px";
+  }
+});
+
+const event = document.getElementById("event");
+event.addEventListener("click", () => {
+  if (Gib.style.marginLeft === "280px") {
+    Gib.style.marginLeft = "30px";
+  } else {
+    Gib.style.marginLeft = "280px";
+  }
+
+  if (bttom_nav.style.marginLeft === "280px") {
+    bttom_nav.style.marginLeft = "30px";
+  } else {
+    bttom_nav.style.marginLeft = "280px";
+  }
+});

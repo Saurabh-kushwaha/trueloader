@@ -1615,7 +1615,7 @@ padding: 5px 5px;
 }
 .cwf_side_c_deployments{
   margin-left: 105px !important;
-  margin-top: -394px !important;
+  margin-top: -387px !important;
   flex-direction: column;
   align-items: flex-start;
   padding: 5px 0px 0px;
@@ -1624,18 +1624,30 @@ padding: 5px 5px;
   width: 245px;
   height: 83vh;
   left: 106px;
-  top: 90px;
   background: #FFFFFF;
   border-right: 1px solid #E0E0E0;
 }
 .cwf_side_c_connection{
   margin-left: 105px !important;
-  margin-top: -506px !important;
+  margin-top: -562px !important;
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
   width: 245px;
   height: 683px;
+  left: 106px;
+  top: 90px;
+  background: #FFFFFF;
+  border-right: 1px solid #E0E0E0;
+}
+.cwf_side_c_events{
+  margin-left: 105px !important;
+  margin-top: -452px !important;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  width: 245px;
+  height: 90vh;
   left: 106px;
   top: 90px;
   background: #FFFFFF;

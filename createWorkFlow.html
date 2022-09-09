@@ -1157,7 +1157,7 @@
               id="dropdownDefault"
               data-dropdown-toggle="dropdownId_cwf_tree_view"
             >
-              <div class="cwf_left_text">
+              <div class="cwf_left_text" id="view_tree">
                 <img src="./img/clarity_tree-view-solid.svg" />
                 <span>Tree view</span>
               </div>
@@ -1242,7 +1242,7 @@
               id="dropdownDefault"
               data-dropdown-toggle="dropdownId_cwf_versions_view"
             >
-              <div class="cwf_left_text">
+              <div class="cwf_left_text" id="versions">
                 <img src="./img/octicon_versions-16.svg" />
                 <span>Versions</span>
               </div>
@@ -1291,11 +1291,13 @@
           </li>
 
           <li>
-            <a href="#">
+            <a href="#"
+             id="dropdownDefault"
+              data-dropdown-toggle="dropdownId_cwf_deployments_view"
+            >
               <div
                 class="mt-24 cwf_left_text"
-                id="dropdownDefault"
-                data-dropdown-toggle="dropdownId_cwf_deployments_view"
+                id="deployment"
               >
                 <img src="./img/akar-icons_play.svg" />
                 <span>Deployments</span>
@@ -1348,11 +1350,63 @@
           </li>
 
           <li>
-            <a href="#">
+            <a href="#"
+              id="dropdownDefault"
+              data-dropdown-toggle="dropdownId_cwf_event_view"
+            >
+              <div
+                class="cwf_left_text"
+                style="margin-top: 50px;"
+                id="event"
+              >
+                <img src="./img/bi_list-check.svg" />
+                <span>Events</span>
+              </div>
+            </a>
+
+            <div
+              id="dropdownId_cwf_event_view"
+              class="hidden bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 cwf_side_c_events"
+            >
+              <ul
+                class="text-sm text-gray-700 dark:text-gray-200"
+                aria-labelledby="dropdownDefault"
+              >
+              <li class="connection_li_1st">
+                <div class="flex justify-between px-2 py-1">
+                  <span>Connections</span>
+                  <div class="flex">
+                    <i class="bx bx-search mt-1"></i>
+                    <p>X</p>
+                  </div>
+                </div>
+              </li>  
+
+              <li class="connection_li_1st">
+                <div class="flex justify-between px-2 py-1">
+                  <span>Workflow 2022-05-18 11:17</span>
+                </div>
+              </li>  
+              
+              <li>
+                <div>
+                  <div>
+                      
+                  </div>
+                </div>
+              </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <a href="#"
+              id="dropdownDefault"
+              data-dropdown-toggle="dropdownId_cwf_connection_view"
+            >
               <div
                 class="mt-24 cwf_left_text"
-                id="dropdownDefault"
-                data-dropdown-toggle="dropdownId_cwf_connection_view"
+                id="connect"
               >
                 <img src="./img/Connections.svg" />
                 <span>Connections</span>
