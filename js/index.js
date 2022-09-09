@@ -144,6 +144,7 @@ for (i = 0; i < acc.length; i++) {
 
 const graphPage = document.getElementById("workFlow");
 const Gib = document.getElementById("g_i_b");
+const bttom_nav = document.getElementById("grf_footer_nav");
 graphPage.addEventListener("click", () => {
   if (Gib.style.marginLeft === "280px") {
     Gib.style.marginLeft = "30px";
@@ -151,4 +152,11 @@ graphPage.addEventListener("click", () => {
   else {
     Gib.style.marginLeft = "280px";
   }
+
+  if (bttom_nav.style.marginLeft === "280px") {
+    bttom_nav.style.marginLeft = "30px";
+  } else {
+    bttom_nav.style.marginLeft = "280px";
+  }
+  
 })

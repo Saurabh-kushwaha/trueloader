@@ -23,7 +23,7 @@
 }
 
 body {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   transition: var(--tran-05);
 }
 
@@ -1546,11 +1546,9 @@ margin-left: 2px;
   margin-left: 2px;
 }
 .graph_img_bg{
-  height: 86vh;
+  height: 87vh;
   background-image: url("../img/graph_img.svg");
   background-repeat: repeat;
-  border: 1px solid red;
-  margin-left: 30px;
 }
 
 .graph_nav_bottom{
