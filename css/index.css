@@ -1513,7 +1513,7 @@ border-radius: 4px;
 .cwf_left_sidebar{
 position: absolute;
 width: 30px;
-height: 580px;
+height: auto;
 left: 75px;
 top: 85px;
 background: #FFFFFF;
@@ -1757,3 +1757,62 @@ color: #2D3648;
 .versions_input_bg input{
   background: #F1F3F4;
 }
+
+.create_node_btn{
+align-items: center;
+padding: 10px 0px;
+gap: 10px;
+position: absolute;
+width: 56px;
+height: 222px;
+left: calc(97% - 56px/2);
+top: calc(40% - 222px/2);
+background: #FFFFFF;
+box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.23);
+border-radius: 8px;
+}
+.create_node_btn p{
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color: #333333;
+flex: none;
+order: 1;
+flex-grow: 0;
+padding: 3px 0px;
+cursor: pointer;
+}
+.create_node_btn img{
+ margin: auto;
+ padding: 5px 0px;
+ cursor: pointer;
+}
+
+.node_icon_pop_listener{
+display: flex;
+flex-direction: column;
+padding: 15px;
+gap: 15px;
+position: relative;
+width: 371px;
+height: 107px;
+background: #FFFFFF;
+box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+margin-left: -80px !important;
+margin-top: -50px !important;
+}
+.create_blank_node{
+padding: 0px;
+width: 302px;
+height: 562px;
+filter: drop-shadow(0px 4px 23px rgba(0, 0, 0, 0.08));
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+background: #FFFFFF;
+margin-top: -194px !important;
+}
+

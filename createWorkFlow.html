@@ -1451,7 +1451,87 @@
       </div>
 
       <div class="graph_img_bg" id="g_i_b">
-       
+        <div class="create_node_btn">
+          <div>
+            <img src="./img/akar-icons_drag-vertical (1).svg"/>
+          </div>
+          <div>
+            <img 
+             id="dropdownDefault"
+             data-dropdown-toggle="dropdownId_node_img"
+             src="./img/Frame 15.svg"
+            />
+
+            <p id="dropdownDefault"
+              data-dropdown-toggle="dropdownId_node"
+            >Node</p>
+          </div>
+          <div>
+            <img src="./img/Frame 16.svg"/>
+            <p>Group</p>
+          </div>
+          
+          <div>
+            <img src="./img/Frame 16 (1).svg"/>
+            <p>Notes</p>
+          </div>
+        </div>
+        <!-- here content of node img  -->
+           <div
+              id="dropdownId_node_img"
+              class="hidden node_icon_pop_listener"
+              aria-labelledby="dropdownDefault"
+            >
+              <div class="pb-4">
+                <p class="text-xs font-medium text-zinc-900">Select Node</p>
+              </div>
+              <div class="flex justify-between">
+                <div>
+                  <img class="ml-2" src="./img/icon-play_listner.svg"/>
+                  <span class="font-normal text-xs text-center">Listener</span>
+                </div>
+                <div>
+                  <img class="ml-1" src="./img/icon-trending-up.svg"/>
+                  <span class="font-normal text-xs text-center">Fetch</span>
+                </div>
+                <div>
+                  <img class="ml-1" src="./img/icon-trending-down.svg"/>
+                  <span class="font-normal text-xs text-center">Fullfill</span>
+                </div>
+                <div>
+                  <img class="ml-2" src="./img/carbon_boolean.svg"/>
+                  <span class="font-normal text-xs text-center">Boolean</span>
+                </div>
+                <div>
+                  <img class="ml-1" src="./img/switch.svg"/>
+                  <span class="font-normal text-xs text-center">Switch</span>
+                </div>
+                <div>
+                  <img class="ml-2" src="./img/circuit.svg"/>
+                  <span class="font-normal text-xs text-center">Circuit</span>
+                </div>
+            </div>
+          </div>
+          <!-- here content of node text -->
+          <div
+            id="dropdownId_node"
+            class="hidden create_blank_node"
+            aria-labelledby="dropdownDefault"
+            >
+            <div>
+              <div>
+                <h2>Create Node</h2>
+                <div>
+                  <img src="./img/Shape_srch.svg"/>
+                  <input type="text" placeholder="Search"/>
+                  <p>Select Node</p>
+                </div>
+              </div>
+              <div>
+                
+              </div>
+            </div>
+          </div>
       </div>
       
       <div class="graph_nav_bottom" id="grf_footer_nav">

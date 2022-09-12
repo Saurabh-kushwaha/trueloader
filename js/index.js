@@ -20,7 +20,8 @@ const body = document.querySelector("body"),
     x = x.length;
     console.log(x);
   });
-
+  
+  
 
 // if (x === 1) {
 //   menubar.addEventListener("mouseenter", () => {
@@ -158,6 +159,9 @@ graphPage.addEventListener("click", () => {
   } else {
     bttom_nav.style.marginLeft = "280px";
   }
+  
+  
+  console.log(sidebar);
   
 })
 
